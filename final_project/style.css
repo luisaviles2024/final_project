@@ -1,0 +1,156 @@
+body {
+  background-color: #F5F5F5; /* Replace with your desired background color */
+}
+
+h1 {
+  font-size: 36px;
+  color: #990000;
+  font-weight: bold;
+  /* Add more styles as needed */
+}
+img {
+    width: 50px;
+    float:left;
+  margin-right: 0px; /* Add spacing between image and content */
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333; /* Example background color */
+    width: 100%; /* Adjust as needed */
+    height: 100;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+    display:flex; /* This makes the list items horizontally align */
+
+  }
+  
+  .nav-list li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li a {
+    display: block;
+    padding: 10px 10px; /* Adjust as needed */
+    text-decoration: none;
+    color: gold; /* Example text color */
+    text-align: center;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #555; /* Example hover background color */
+  }
+ 
+  .container {
+    width: 100%; /* Ensure the container spans the entire width of its parent */
+  }
+  
+  .sidebar {
+    width: 30%; /* Set the width of the sidebar */
+    float: left; /* Float the sidebar to the left */
+  }
+  
+  .main-content {
+    width: 100%; /* Set the width of the main content area */
+    float: right; /* Float the main content to the left */
+  }
+
+  .image {
+    position: relative; /* Allows for positioning */
+    top: 100px; /* Adjust the top value to move the image vertically */
+    left: 400px; /* Adjust the left value to move the image horizontally */
+    width: 800px; /* Adjust the width value to resize the image */
+    height: 400px; /* Adjust the height value to resize the image */
+  }
+
+  h4 {
+    margin-top: 530px; /* Adjust the margin-top value to move the heading downwards */
+    text-align: center;
+    font-size: 14px ;
+    color: gray;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Set the number of columns */
+    gap: 20px; /* Set the gap between columns */
+  }
+  
+  .school {
+    position: relative; /* Allows for positioning */
+    top: -360px; /* Adjust the top value to move the image vertically */
+    left: 850px; /* Adjust the left value to move the image horizontally */
+    width: 500px; /* Adjust the width value to resize the image */
+    height: 300px; /* Adjust the height value to resize the image */
+  }
+ 
+  h3 {
+    
+      margin-top: 250px;
+      margin-left: 600px;
+      font-size: 21px;
+  }
+
+  /* p {
+    /* margin-top: 50px;
+    margin-left: 400px;
+    font-size: 16px; */
+   
+    .center-container {
+      display: grid;
+      place-items: center;
+      width: 30%;
+      height: 50vh;
+    }
+
+    h6 {
+    
+      margin-top: 300px;
+      margin-left: 600px;
+      font-size: 21px;
+  }
+
+  .center-container2 {
+    display: grid;
+    place-items: center;
+    width:30%;
+    height: 50vh;
+    margin-left: 500px;
+  }
+
+  h5 {
+    
+    
+      margin-top: 100px;
+      margin-left: 100px; 
+      font-size: 19px;
+  
+  }
+
+  .center-container3 {
+    display: grid;
+    place-items: center;
+    width:100%;
+    height: 50vh;
+  }
+
+  .footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .footer {
+    /* ... other styles ... */
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+  }
